@@ -1,9 +1,3 @@
-const age = 23
+const path = require('path')
 
-if(age < 10) {
-    console.log("small number")
-}else{
-    console.log("large number")
-}
-
-console.log("yooo!")
+console.log(path.sep)
